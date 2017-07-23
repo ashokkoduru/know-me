@@ -26,6 +26,7 @@ jQuery(function($, undefined) {
         greetings: 'Be Smart enough, and never touch the mouse.',
         name: 'js_demo',
         height: 400,
-        prompt: '&rarr; '
+        prompt: '&rarr; ',
+        enabled: false
     });
 });
