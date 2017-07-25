@@ -1,3 +1,16 @@
 body{
-    background-image: url("/../images/ep_naturalblack.png");
+    background-color: #495961;
+    /*background-image: url(../images/bg5.png);*/
+}
+
+.profile-card{
+    border: dotted
+}
+
+.profile-tabs{
+    /*border: dotted*/
+}
+
+.profile-image{
+
 }
