@@ -1,14 +1,14 @@
 body{
-    background-color: #495961;
-    /*background-image: url(../images/bg5.png);*/
+    /*background-color: #495961;*/
+    background-image: url(../images/bg5.png);
 }
 
 .profile-card{
-    border: dotted
+    background-color: #1b6d85;
 }
 
 .profile-tabs{
-    /*border: dotted*/
+    border: double
 }
 
 .profile-image{
