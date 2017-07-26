@@ -1,36 +1,49 @@
 body{
     /*background-color: #495961;*/
     background-image: url(../images/bg5.png);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: silver;
+    overflow-x: hidden;
+    padding: 0;
 }
-
 .wrapper{
     /*position: absolute;*/
     /*top: 25%;*/
     /*text-align: center;*/
 }
-
-.profile-card{
-    background-color: #1b6d85;
+.no-display{
+    display: none;
 }
-
+.center-text{
+    text-align: center;
+}
+.profile-card{
+    background-color: #1f6341;
+    height: auto;
+}
 .profile-tabs{
     border: double;
     /*background-color: #761c19;*/
     height: 100px;
 }
-
 .profile-card-image{
-    height: 100px;
+    /*height: 100px;*/
     /*background-color: silver;*/
     text-align: center;
 }
-
 .profile-card-details {
-    height: 100px;
+    /*height: 100px;*/
     /*background-color: #1AAF5C;*/
 }
-
 .image-dp{
     max-height: 100%;
     max-width: 100%;
+}
+.profile-card-name{
+    /*text-align: center;*/
+    /*padding: 20px;*/
 }
