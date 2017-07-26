@@ -1,6 +1,6 @@
 body{
-    /*background-color: #495961;*/
-    background-image: url(../images/bg5.png);
+    /*background-color: silver;*/
+    background-image: url(../images/ep_naturalblack.png);
     margin: 0;
     /*font-family: 'Avenir LT Std', 'Lato', sans-serif;*/
     font-family: 'Oxygen', sans-serif;
@@ -20,7 +20,7 @@ body{
     overflow: hidden;
      position: absolute;
     top: 50%;
-     margin: -290.5px auto 0 auto;
+     margin: -270.5px auto 0 auto;
 }
 .no-display{
     display: none;
@@ -64,6 +64,7 @@ body{
 }
 .profile-card-name{
     text-align: center;
+    text-transform: uppercase;
     /*padding: 20px;*/
 }
 .profile-card-name > h3{
