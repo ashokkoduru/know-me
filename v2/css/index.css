@@ -18,9 +18,12 @@ body{
     display: block;
     width: 100%;
     overflow: hidden;
-     position: absolute;
+    position: absolute;
     top: 50%;
-     margin: -270.5px auto 0 auto;
+    margin: -270.5px auto 0 auto;
+}
+.content{
+    background-color: #1f6341;
 }
 .no-display{
     display: none;
@@ -116,10 +119,27 @@ body{
     color: ghostwhite;
 }
 .profile-tabs{
-    background-color: silver;
-    /*height: 520px;*/
+    background-color: #dbe1a7;
+    height: 510px;
+    color: black;
 }
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+.tabs{
+    display: flex;
+    justify-content: space-around;
+}
+.tabs > .tabs-header{
+    border: 1px solid black;
 
+}
+.tabs > li{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
 
 @media only screen and (min-width : 320px) {
 

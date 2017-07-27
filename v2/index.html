@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <head lang="en">
 
-        <title>Ashok Koduru - Portfolio and Resume</title>
+        <title>Ashok Koduru</title>
 
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -26,8 +26,10 @@
         <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
         <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
 
-        <!--&lt;!&ndash; CSS | Colors &ndash;&gt;-->
-        <!--<link rel="stylesheet" type="text/css" href="css/colors/DarkBlue.css">-->
+        <!-- CSS | Easy Responsive Tabs -->
+        <!-- Credits: https://github.com/jellekralt/Responsive-Tabs -->
+        <link rel="stylesheet" type="text/css" href="css/responsive-tabs.css">
+        <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
 
         <!-- CSS | Style -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -jquery.mCustomScrollbar.min.css-->
@@ -57,7 +59,7 @@
 
             <!-- Start | Container -->
             <div class="container">
-                <div class="col-md-12">
+                <div class="col-md-12 content">
 
                     <!-- Start | 1.1 -- Everything in one row -->
                     <div class="row">
@@ -98,7 +100,7 @@
 
                                         <!--Start | Description-->
                                         <div class="profile-card-description col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                            <p>A Computer Science Graduate Student seeking Internship opportunities for Spring and Summer 2018.</p>
+                                            <p>A Computer Science Graduate student seeking internship opportunities for Spring and Summer 2018.</p>
                                         </div>
                                         <!--End | Description-->
 
@@ -127,31 +129,44 @@
                         <!------------------------------------------------------------>
                         <!-- Start | Profile Tabs -->
                         <div class="col-md-9 profile-tabs">
+                            <div id="responsiveTabsDemo">
+                                <ul>
+                                    <li><a href="#about-me"> <i class="fa fa-user"></i>&nbsp;&nbsp;About Me </a></li>
+                                    <li><a href="#portfolio"> <i class="fa fa-sliders"></i>&nbsp;&nbsp;Portfolio </a></li>
+                                    <li><a href="#contact-me"> <i class="fa fa-github-square"></i>&nbsp;&nbsp;Contact Me </a></li>
+                                </ul>
 
+                                <div id="about-me"> Tab1 </div>
+                                <div id="portfolio"> Tab2 </div>
+                                <div id="contact-me"> Tab3 </div>
+                            </div>
                         </div>
-                        <!-- End | Profile Tabs -->
 
                     </div>
                     <!-- End | 1.1-->
 
+                    </div>
                 </div>
-            </div>
             <!-- End | Container-->
 
         </div>
         <!-- End | Wrapper -->
 
-        <!-- ******FOOTER****** -->
-        <footer class="footer">
-        <div class="container text-center">
-        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">Designed and Developed
-            by <a href="http://github.com/ashokkoduru/know-me" target="_blank">Ashok Koduru</a></small>
-        </div><!--//container-->
-        </footer><!--//footer-->
+        <!-- Start | Footer -->
+        <div class="footer">
+            <div class="text-center">
+            <small class="copyright">Designed and Developed by <a href="http://github.com/ashokkoduru/know-me" target="_blank">Ashok Koduru</a></small>
+            </div>
+        </div>
+        <!-- End | Footer -->
 
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+
+        <!-- JS | Responsive Tabs - Jekkakralt -->
+        <!-- Credits: https://github.com/jellekralt/Responsive-Tabs -->
+        <script type="text/javascript" src="js/jquery.responsiveTabs.js"></script>
+
         <script type="text/javascript" src="js/typed.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>

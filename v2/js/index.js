@@ -6,3 +6,13 @@ $(function(){
         loop: true
     });
 });
+
+jQuery(document).ready(function($) {
+
+    "use strict";
+
+    $('#responsiveTabsDemo').responsiveTabs({
+        startCollapsed: 'accordion'
+    });
+
+ });
