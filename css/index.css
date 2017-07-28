@@ -1,310 +1,325 @@
-body {
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+body{
+    /*background-color: silver;*/
+    background-image: url(../images/ep_naturalblack.png);
     margin: 0;
-    padding: 0;
-    display: block;
-    background-color: slategrey;
-}
-
-.boxShawdow{
-    position: relative;
-    z-index: 2;
-    margin: 25px auto;
-    height: auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 0 20px black;
-    overflow: auto;
-    display: inline-block;
-    width: 80%;
-    transition: all 1s ease;
-    -webkit-filter: opacity(85%);
-    filter: opacity(85%);
-}
-
-.boxShawdow:hover {
-    -webkit-filter: opacity(100%);
-    filter(opacity(100%));
-}
-.section {
-    margin: 30px 60px;
-    display: flex;
-    justify-content: space-around;
-    width: 1172px;
-}
-
-.sectionLeft {
-    width: 20%;
-    height:420px;
-}
-.sectionRight {
-    width: 60%;
-    height:420px;
-    float: right;
-}
-
-.profilePic {
-    width: 100%;
-}
-#name {
-    font-family: "Comic Sans MS";
-    font-size: 32px;
-    text-align: center;
-    margin: 18px 0 20px;
-}
-.contactDetails ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0 0 0 20px;
-
-}
-.iconContactDetail {
-    max-width: 100%;
-    padding-right: 5px;
-    vertical-align: middle;
-}
-
-#reachMe{
-    display: flex;
-    margin: 30px 10px 0;
-    justify-content: space-around;
-}
-
-.contact {
-    font-family: "Comic Sans MS";
-    color: black;
+    /*font-family: 'Avenir LT Std', 'Lato', sans-serif;*/
+    font-family: 'Oxygen', sans-serif;
     font-weight: 400;
-    text-decoration: none;
+    font-size: 13px;
+    line-height: 25px;
+    color: silver;
+    overflow-x: hidden;
+    padding: 0;
 }
-
-.title{
-    text-align: center;
-    font-family: "Comic Sans MS";
-    font-size: 32px;
-}
-
-#aboutme_content{
-    font-size: 24px;
-    margin: 10px 20px 10px;
-    font-family: "Comic Sans MS";
-
-}
-
-.contactLink{
-    text-decoration: none;
-}
-/*
-@media and screen and (max-width:750px) {
-    .contentWrapper {
-        width:100% !important;
-        display: block;
-    }
-}
-*/
-
-
-img.menuIcon {
-    height: 3.5%;
-    width: 3.5%;
-}
-img.projectPic {
+/*h1,h3{*/
+    /*text-transform: uppercase;*/
+/*}*/
+.wrapper{
     display: block;
-    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    margin: -270.5px auto 0 auto;
 }
-h3.projectTitle {
+.green-background{
+    background-color: #1f6341;
+}
+.no-display{
+    display: none;
+}
+.center-text{
     text-align: center;
 }
-img.homescreenPic {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.profile-card{
+    height: auto;
+}
+/*.profile-tabs{*/
+    /*border: double;*/
+    /*background-color: #761c19;*/
+    /*height: 100px;*/
+/*}*/
+.profile-card-image{
+    /*height: 190px;*/
+    /*background-color: silver;*/
+    text-align: center;
+
+}
+.picture-holder{
+    height: 140px;
+    margin-top: 50px;
+    /*margin-bottom: 40px;*/
     max-width: 100%;
     max-height: 100%;
-    margin: auto;
-    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid #8ec0b1;
 }
-.contentWrapper {
-    position: relative;
-    z-index: 2;
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 0 20px black;
-    overflow: auto;
-    display: inline-block;
-    width: 80%;
-    margin: 3% 5%;
-    transition: all 1s ease;
-    -webkit-filter: opacity(80%);
-    filter: opacity(80%);
+.profile-card-details {
+    /*height: 100px;*/
+    /*background-color: #1AAF5C;*/
 }
-.contentWrapper:hover {
-    -webkit-filter: opacity(100%);
-    filter(opacity(100%));
-}
-#myPicWrapper {
-    width: 200px;
-    margin: 50px auto;
-    width: 20%;
-    margin: 3% 5%;
-    align-items: stretch;
-}
-#languageWrapper {
-    float: left;
-    display: inline-block;
-    width: 60%;
-    margin: 2% 5%;
-}
-#workExperience {
-    width: 60%;
-}
-#frameworksWrapper {
-    float: left;
-    display: inline-block;
-    width: 60%;
-    margin: 2% 5%;
-    align-items: stretch;
-}
-#specialtiesWrapper {
-    float: right;
-    display: inline-block;
-    width: 20%;
-    margin: 2% 5%;
-}
-ul li {
-    margin-top: 15px;
-}
-
-ul.specialties {
-    margin-left: 0px;
-    margin-right: 10px;
-    list-style-type: none;
-}
-ul.frameworks {
-    margin-left: 55px;
-}
-.contentTitle {
-    text-align: center;
-    margin-bottom: 35px;
-}
-.personalPic {
-    /*border-radius: 100%;*/
-
+.image-dp{
+    max-height: 100%;
     max-width: 100%;
-    height: auto;
-    margin: 6% 0%;
 }
-.contactTitle {
-    font-size: 18px;
-    margin-top: 20px;
-}
-.contactInfo {
-    font-size: 14px;
-    margin-top: 10px;
-}
-#jobTitle {
+.profile-card-name{
     text-align: center;
-    margin-top: 40px;
-    font-size: 18px;
+    text-transform: uppercase;
+    /*padding: 20px;*/
 }
-.pageWrap {
+.profile-card-name > h3{
+    margin-bottom: 0;
+    color: ghostwhite;
+}
+.profile-card-header{
+    text-align: center;
+}
+.profile-card-header > h4 {
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+.profile-card-place{
+    text-align: center;
+}
+.profile-card-place > h6{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.profile-card-description{
+    font-style: italic;
+    text-align: center;
+}
+.profile-card-description > p{
+    padding: 10px 0px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+
+}
+.profile-card-social{
+    text-align: center;
+    /*display: flex;*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.all-social{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.all-social>a{
+    font-size: 32px;
+    color: silver;
+}
+
+.all-social>a:hover{
+    color: ghostwhite;
+}
+
+/**********************************/
+/********Profile Separator*********/
+/**********************************/
+
+.profile-tabs{
+    background-color: white;
+    height: 520px;
+    color: black;
+    padding-left: 0;
+    padding-right: 0;
+}
+/*.footer{*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+/*}*/
+.tabs {
     position: relative;
-    z-index: 2;
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 0 20px black;
+    height: 100%;
 }
-/*.bg:hover{
-  -webkit-filter:opacity(100%);
-  filter(opacity(100%));
-}*/
+.tabs>input, .tabs>span {
+    height: 40px;
+    position: absolute;
+    line-height: 40px;
+    top: 0;
+    width: 25%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: silver;
+}
+.tabs>input {
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    z-index: 99;
+}
+.tabs>span {
+    text-align: center;
+    overflow: hidden;
+}
+.tabs>span {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.tabs>input:checked+span, .tabs>input:hover+span {
+    color: silver;
+    background-color: #1f6341; !important;
+}
+#tab-1, #tab-1+span {
+    left: 0;
+}
+#tab-2, #tab-2+span {
+    left: 25%;
+}
+#tab-3, #tab-3+span {
+    left: 50%;
+}
+#tab-4, #tab-4+span {
+    left: 75%;
+}
+.tab-content {
+    width: 100%;
+    padding: 40px 10px 10px;
+    /*min-height: calc(100%);*/
+}
+.tab-content section {
+    min-height: 100%;
+    width: 100%;
+    display: none;
+}
+#tab-1:checked~.tab-content #tab-content-1 {
+    display: block;
+}
+#tab-2:checked~.tab-content #tab-content-2 {
+    display: block;
+}
+#tab-3:checked~.tab-content #tab-content-3 {
+    display: block;
+}
+#tab-4:checked~.tab-content #tab-content-4 {
+    display: block;
+}
+.inside-tab{
+    padding: 10px;
+}
+/**********************************/
+/*************Skills***************/
+/**********************************/
 
-@media screen and (max-width: 1024px) {
-    /* Specific to this particular image */
 
-    img.bg {
-        left: 50%;
-        margin-left: -512px;
-        /* 50% */
+/**********************************/
+/**********Contact-Me Tab***********/
+/**********************************/
+.my-info{
+    height:auto;
+}
+.section-title{
+    padding: 2px;
+    /*background-color: ;*/
+    color:black;
+}
+.section-title-inner{
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+    font-weight: 200;
+}
+#contact-me-form{
+    padding: 10px 5px;
+}
+.contact-form-reset-button{
+    /*border-radius: 4px;*/
+    background-color: darkgrey;
+    padding: 5px 35px;
+    margin-right: 15px;
+    border: none;
+}
+.contact-form-submit-button{
+    /*border-radius: 4px;*/
+    /*background-color: green;*/
+    padding: 5px 35px;
+    margin-right: 15px;
+    color: silver;
+    border: none;
+}
+textarea{
+    resize: none;
+}
+
+/**********************************/
+/**********Media Queries***********/
+/**********************************/
+
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .wrapper{
+        top:40%;
+    }
+    .profile-tabs{
+        margin-top: 20px;
+        height: auto;
+    }
+    /*.profile-card-description{*/
+        /*display: none;*/
+    /*}*/
+    /*.profile-card-social{*/
+        /*display: none;*/
+    /*}*/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .mobile-no-display{
+        display: none;
     }
 }
-.skillsList {
-    float: left;
-}
-p.workExperienceJob {
-    font-size: 32px !important;
-}
-#x {
-    font-size: 32px;
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
 }
 
-#head {
-    font-family: monospace;
-    color: #fff;
-    margin: auto;
-    padding: 35px;
-    font-size: 40px;
-    text-align: center;
-}
-#bar {
-    text-align: center;
-    width: 750px;
-    height: 25px;
-    background-color: #DAD9D9;
-    margin: 0 auto;
-    font-family: monospace;
-    padding: auto;
-    float: none;
-    /*border-radius: 5px;*/
-}
-#red {
-    background-color: #E94B35;
-    border-radius: 100%;
-    width: 15px;
-    height: 15px;
-    margin: 0 auto;
-    left: -47%;
-    bottom: -20%;
-    position:relative;
-}
-#yellow {
-    background-color: #f0f000;
-    border-radius: 100%;
-    width: 15px;
-    height: 15px;
-    margin: 0 auto;
-    left: -44%;
-    bottom: 40%;
-    position:relative;
-    display: block;
-}
-#green {
-    background-color: #1AAF5C;
-    border-radius: 100%;
-    width: 15px;
-    height: 15px;
-    margin: 0 auto;
-    left: -41%;
-    bottom: 99%;
-    position:relative;
-    display: block;
-}
-#screen {
-    background-color: #000000;
-    width: 750px;
-    height: 450px;
-    /*border-radius: 2%;*/
-    margin: 0 auto;
-    padding: 1px;
-}
-.font {
-    color: #0f0;
-    font-family: monospace;
-    font-size: 15px;
-    text-align: left;
-    position: static;
-}
