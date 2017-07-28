@@ -1,3 +1,8 @@
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 body{
     /*background-color: silver;*/
     background-image: url(../images/ep_naturalblack.png);
@@ -123,7 +128,7 @@ body{
 /**********************************/
 
 .profile-tabs{
-    background-color: #ffffeb;
+    background-color: white;
     height: 519px;
     color: black;
     padding-left: 0;
@@ -145,6 +150,7 @@ body{
     width: 25%;
     font-weight: bold;
     font-size: 15px;
+    background-color: darkgrey;
 }
 .tabs>input {
     cursor: pointer;
@@ -201,6 +207,51 @@ body{
 #tab-4:checked~.tab-content #tab-content-4 {
     display: block;
 }
+.inside-tab{
+    padding: 10px;
+}
+/**********************************/
+/*************Skills***************/
+/**********************************/
+
+
+/**********************************/
+/**********Contact-Me Tab***********/
+/**********************************/
+.my-info{
+    height:auto;
+}
+.section-title{
+    padding: 2px;
+    /*background-color: ;*/
+    color:black;
+}
+.section-title-inner{
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+    font-weight: 200;
+}
+#contact-me-form{
+    padding: 10px 5px;
+}
+.contact-form-reset-button{
+    /*border-radius: 4px;*/
+    background-color: darkgrey;
+    padding: 5px 35px;
+    margin-right: 15px;
+    border: none;
+}
+.contact-form-submit-button{
+    /*border-radius: 4px;*/
+    /*background-color: green;*/
+    padding: 5px 35px;
+    margin-right: 15px;
+    color: silver;
+    border: none;
+}
+textarea{
+    resize: none;
+}
 
 /**********************************/
 /**********Media Queries***********/
@@ -239,15 +290,18 @@ body{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .wrapper{
+        top:40%;
+    }
+    .profile-tabs{
+        margin-top: 20px;
+    }
     /*.profile-card-description{*/
         /*display: none;*/
     /*}*/
     /*.profile-card-social{*/
         /*display: none;*/
     /*}*/
-    .profile-tabs{
-        margin-top: 20px;
-    }
 }
 
 /* Small Devices, Tablets */
@@ -267,3 +321,4 @@ body{
 @media only screen and (max-width : 320px) {
 
 }
+

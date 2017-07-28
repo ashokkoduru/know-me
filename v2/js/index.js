@@ -6,13 +6,3 @@ $(function(){
         loop: true
     });
 });
-
-jQuery(document).ready(function($) {
-
-    "use strict";
-
-    $('#profile-tabs-content').responsiveTabs({
-        startCollapsed: 'accordion'
-    });
-
- });
