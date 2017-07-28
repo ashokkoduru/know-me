@@ -118,28 +118,24 @@ body{
 .all-social>a:hover{
     color: ghostwhite;
 }
+
+/**********************************/
+/********Profile Separator*********/
+/**********************************/
+
 .profile-tabs{
-    background-color: #dbe1a7;
-    height: 510px;
+    background-color: #ffffeb;
+    height: 519px;
     color: black;
 }
 .footer{
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
 }
-.tabs{
-    display: flex;
-    justify-content: space-around;
-}
-.tabs > .tabs-header{
-    border: 1px solid black;
 
-}
-.tabs > li{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-}
+/**********************************/
+/**********Media Queries***********/
+/**********************************/
 
 @media only screen and (min-width : 320px) {
 

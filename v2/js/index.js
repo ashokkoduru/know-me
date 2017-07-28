@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
 
     "use strict";
 
-    $('#responsiveTabsDemo').responsiveTabs({
+    $('#profile-tabs-content').responsiveTabs({
         startCollapsed: 'accordion'
     });
 
