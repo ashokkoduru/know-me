@@ -290,9 +290,9 @@ textarea{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    .wrapper{
-        top:40%;
-    }
+    /*.wrapper{*/
+         /*top:40%;*/
+     /*}*/
     .profile-tabs{
         margin-top: 20px;
         height: auto;
