@@ -22,7 +22,7 @@ body{
     top: 50%;
     margin: -270.5px auto 0 auto;
 }
-.content{
+.green-background{
     background-color: #1f6341;
 }
 .no-display{
@@ -32,7 +32,6 @@ body{
     text-align: center;
 }
 .profile-card{
-    background-color: #1f6341;
     height: auto;
 }
 /*.profile-tabs{*/
@@ -127,10 +126,80 @@ body{
     background-color: #ffffeb;
     height: 519px;
     color: black;
+    padding-left: 0;
+    padding-right: 0;
 }
 .footer{
     position: fixed;
     bottom: 0;
+}
+.tabs {
+    position: relative;
+    height: 100%;
+}
+.tabs>input, .tabs>span {
+    height: 40px;
+    position: absolute;
+    line-height: 40px;
+    top: 0;
+    width: 25%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.tabs>input {
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    z-index: 99;
+}
+.tabs>span {
+    text-align: center;
+    overflow: hidden;
+}
+.tabs>span {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.tabs>input:checked+span, .tabs>input:hover+span {
+    color: silver;
+    background-color: #1f6341; !important;
+}
+#tab-1, #tab-1+span {
+    left: 0;
+}
+#tab-2, #tab-2+span {
+    left: 25%;
+}
+#tab-3, #tab-3+span {
+    left: 50%;
+}
+#tab-4, #tab-4+span {
+    left: 75%;
+}
+.tab-content {
+    width: 100%;
+    padding: 40px 10px 10px;
+    /*min-height: calc(100%);*/
+}
+.tab-content section {
+    min-height: 100%;
+    width: 100%;
+    display: none;
+}
+#tab-1:checked~.tab-content #tab-content-1 {
+    display: block;
+}
+#tab-2:checked~.tab-content #tab-content-2 {
+    display: block;
+}
+#tab-3:checked~.tab-content #tab-content-3 {
+    display: block;
+}
+#tab-4:checked~.tab-content #tab-content-4 {
+    display: block;
 }
 
 /**********************************/
@@ -176,6 +245,9 @@ body{
     /*.profile-card-social{*/
         /*display: none;*/
     /*}*/
+    .profile-tabs{
+        margin-top: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -186,7 +258,9 @@ body{
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .mobile-no-display{
+        display: none;
+    }
 }
 
 /* Custom, iPhone Retina */

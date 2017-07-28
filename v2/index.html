@@ -26,25 +26,13 @@
         <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
         <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
 
-        <!-- CSS | Easy Responsive Tabs -->
-        <!-- Credits: https://github.com/jellekralt/Responsive-Tabs -->
-        <link rel="stylesheet" type="text/css" href="css/responsive-tabs.css">
-        <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
-
         <!-- CSS | Style -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -jquery.mCustomScrollbar.min.css-->
         <link rel="stylesheet" type="text/css" href="css/index.css">
 
-        <!--&lt;!&ndash; CSS | prettyPhoto &ndash;&gt;-->
-        <!--&lt;!&ndash; Credits: http://www.no-margin-for-errors.com/ &ndash;&gt;-->
-        <!--<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">-->
-
-         <!--CSS | Google Fonts-->
+        <!--CSS | Google Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Oxygen:100,200,300,400" rel="stylesheet">
 
-
-    <!-- Favicon -->
-        <!--<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">-->
 
         <!--&lt;!&ndash;[if IE 7]>-->
         <!--<link rel="stylesheet" type="text/css" href="css/icons/font-awesome-ie7.min.css"/>-->
@@ -64,7 +52,7 @@
                     <div class="row">
 
                         <!-- Start | Profile Card -->
-                        <div class="col-md-3 profile-card">
+                        <div class="col-md-3 profile-card green-background">
                             <div class="row">
 
                                 <!-- Start | Profile Card Image-->
@@ -131,52 +119,40 @@
                         <!------------------------------------------------------------>
                         <!-- Start | Profile Tabs -->
                         <div class="col-md-9 profile-tabs">
-                            <!-- Start | Tabs Content -->
-                            <!--<div id="profile-tabs-content">-->
-                                <!--<ul class="profile-tabs-headers">-->
-                                    <!--&lt;!&ndash;<li><a href="#about-me"> <h4><i class="fa fa-user"></i>&nbsp;&nbsp;About Me </h4></a></li>&ndash;&gt;-->
-                                    <!--<li><a href="#portfolio"> <h4><i class="fa fa-sliders"></i>&nbsp;&nbsp;Portfolio </h4></a></li>-->
-                                    <!--<li><a href="#contact-me"> <h4><i class="fa fa-address-card"></i>&nbsp;&nbsp;Contact Me </h4></a></li>-->
-                                <!--</ul>-->
+                            <!-- Start | Tabs -->
+                            <div class="tabs effect">
+                                <!-- Start | Tabs Headers-->
+                                <input type="radio" id="tab-1" name="tab" checked>
+                                <span href="#tab-content-1"><i class="fa fa-user-o"></i><span class="mobile-no-display">&nbsp;&nbsp;About Me</span></span>
 
-                                <!--&lt;!&ndash; Start | About me &ndash;&gt;-->
-                                <!--&lt;!&ndash;<div class="profile-tab-data" id="about-me">&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<div class="tox-progress" data-size="100" data-thickness="5" data-color="#229922" data-background="#ffffff" data-progress="25" data-speed="500">&ndash;&gt;-->
-                                        <!--&lt;!&ndash;<div class="tox-progress-content" data-vcenter="true">&ndash;&gt;-->
-                                            <!--&lt;!&ndash;//Add content here&ndash;&gt;-->
-                                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                                <!--&lt;!&ndash; End | About me &ndash;&gt;-->
+                                <input type="radio" id="tab-2" name="tab">
+                                <span href="#tab-content-2"><i class="fa fa-code"></i><span class="mobile-no-display">&nbsp;&nbsp;Portfolio</span></span>
 
-                                <!--&lt;!&ndash; Start | Portfolio &ndash;&gt;-->
-                                <!--<div class="profile-tab-data" id="portfolio">-->
-                                    <!--<div class="row">-->
-                                        <!--<div class="col-lg-6">-->
-                                            <!--<div class="section-title">-->
-                                                <!--<h5 class="text-uppercase">What Do i Know</h5>-->
-                                            <!--</div>-->
-                                            <!--<div class="row">-->
-                                                <!--<div class="col-lg-4">1</div>-->
-                                                <!--<div class="col-lg-4">2sdfsdfsdfsdf</div>-->
-                                                <!--<div class="col-lg-4">3</div>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                        <!--<div class="col-lg-6">-->
+                                <input type="radio" id="tab-3" name="tab">
+                                <span href="#tab-content-3"><i class="fa fa-globe"></i><span class="mobile-no-display">&nbsp;&nbsp;Experience</span></span>
 
-                                        <!--</div>-->
+                                <input type="radio" id="tab-4" name="tab">
+                                <span href="#tab-content-4"><i class="fa fa-suitcase"></i><span class="mobile-no-display">&nbsp;&nbsp;Contact Me</span></span>
+                                <!--End | Tabs Headers-->
 
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash;End | Portfolio&ndash;&gt;-->
+                                <!--<div class="line smooth green-background"></div>-->
 
-                                <!--&lt;!&ndash; Start | Contact Me &ndash;&gt;-->
-                                <!--<div class="profile-tab-data" id="contact-me">-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Start | Contact Me &ndash;&gt;-->
-
-                            <!--</div>-->
-                            <!-- Start | Tabs Content -->
+                                <div class="tab-content">
+                                    <section id="tab-content-1">
+                                        Section 1
+                                    </section>
+                                    <section id="tab-content-2">
+                                        Section 2
+                                    </section>
+                                    <section id="tab-content-3">
+                                        Section 3
+                                    </section>
+                                    <section id="tab-content-4">
+                                        Section 4
+                                    </section>
+                                </div>
+                            </div>
+                            <!--End | Tabs-->
                         </div>
                     </div>
                     <!-- End | 1.1-->
