@@ -226,10 +226,10 @@ body{
 }
 .inside-tab{
     padding: 10px;
-    /*overflow-y: auto;*/
+    overflow: auto;
+    height: 460px;
 }
 .tab-content{
-    overflow-y: auto;
 }
 /**********************************/
 /*************Skills***************/
@@ -282,7 +282,6 @@ body{
 }
 .skill-value{
     height: 25px;
-    width: 75%;
     background-color: #78b987;
 }
 /**********************************/
