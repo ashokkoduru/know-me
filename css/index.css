@@ -135,7 +135,7 @@ body{
     background-color: silver;
     color: black;
     font-size: 16px;
-    /*border-radius: 10px;*/
+    border-radius: 10px;
     text-decoration: none;
 }
 
@@ -311,7 +311,7 @@ body{
 .skill-used{
     color: black;
     background-color: #78b987;
-    padding: 0px 11px;
+    padding: 0 11px;
     border-radius: 2px;
     float: right;
     margin-left: 2px;
