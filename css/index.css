@@ -116,7 +116,7 @@ body{
 }
 .all-social>a{
     font-size: 32px;
-    color: #1f6341;;
+    color: silver;;
 }
 
 .all-social>a:hover{
@@ -145,7 +145,7 @@ body{
 
 .profile-tabs{
     background-color: white;
-    height: 514px;
+    height: 520px;
     color: black;
     padding-left: 0;
     padding-right: 0;
@@ -284,49 +284,54 @@ body{
 .skill-value{
     height: 25px;
     background-color: #78b987;
+    border-radius: 5px;
+    padding: 2px 0;
 }
 
 /**********************************/
 /**********Portfolio Tab***********/
 /**********************************/
 
-.experience{
-    padding: 2px 10px;
-    margin-bottom: 10px;
-}
-.experience-duration{
-    float: right;
-}
-.company-detail{
-    padding-bottom: 2px;
-    border-bottom: 1px solid silver;
-}
-.work-done{
-    margin-top: 5px;
-    font-size: small;
-    text-align: justify;
-    text-justify: inter-word;
-}
+/*.experience{*/
+    /*padding: 2px 10px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+/*.experience-duration{*/
+    /*float: right;*/
+/*}*/
+/*.company-detail{*/
+    /*padding-bottom: 2px;*/
+    /*border-bottom: 1px solid silver;*/
+/*}*/
+/*.work-done{*/
+    /*margin-top: 5px;*/
+    /*font-size: small;*/
+    /*text-align: justify;*/
+    /*text-justify: inter-word;*/
+/*}*/
 
-.skill-used{
-    color: black;
-    background-color: #78b987;
-    padding: 0 11px;
-    border-radius: 2px;
-    float: right;
-    margin-left: 2px;
-}
-.role{
-    margin-top: 2px;
+/*.skill-used{*/
+    /*color: black;*/
+    /*background-color: #78b987;*/
+    /*padding: 0 11px;*/
+    /*border-radius: 2px;*/
+    /*float: right;*/
+    /*margin-left: 2px;*/
+/*}*/
+/*.role{*/
+    /*margin-top: 2px;*/
+    /*!*font-weight: bold;*!*/
+/*}*/
+/*.role-name{*/
     /*font-weight: bold;*/
+/*}*/
+/*.company-name{*/
+    /*font-weight: bold;*/
+/*}*/
+.experience{
+    border : 1px solid silver;
+    border-radius: 10px;
 }
-.role-name{
-    font-weight: bold;
-}
-.company-name{
-    font-weight: bold;
-}
-
 /**********************************/
 /**********Contact-Me Tab***********/
 /**********************************/
