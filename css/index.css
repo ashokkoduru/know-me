@@ -226,8 +226,8 @@ body{
 }
 .inside-tab{
     padding: 10px;
-    overflow: auto;
-    height: 460px;
+    overflow-y: auto;
+    height: 485px;
 }
 .margin-down-10{
     margin-bottom: 10px;
@@ -289,7 +289,7 @@ body{
     /*padding: 2px 0;*/
 /*}*/
 .dev-icon{
-    height: 75px;
+    height: 70px;
 }
 .skill{
     text-align: center;
@@ -432,7 +432,9 @@ ul#contact-me-details li{
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .dev-icon{
+        height: 60px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -443,6 +445,9 @@ ul#contact-me-details li{
     .profile-tabs{
         margin-top: 20px;
         min-height: 520px;
+    }
+    .dev-icon{
+        height: 60px;
     }
     /*.profile-card-description{*/
         /*display: none;*/
