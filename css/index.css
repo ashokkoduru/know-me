@@ -282,12 +282,12 @@ body{
     /*padding: 0 20px;*/
     /*width: 100px;*/
 /*}*/
-/*.skill-value{*/
-    /*height: 25px;*/
-    /*background-color: #78b987;*/
-    /*border-radius: 5px;*/
-    /*padding: 2px 0;*/
-/*}*/
+.skill-value{
+    height: 25px;
+    background-color: #78b987;
+    border-radius: 5px;
+    padding: 2px 0;
+}
 .dev-icon{
     height: 68px;
 }
@@ -347,6 +347,24 @@ body{
 .experience{
     border : 1px solid silver;
     border-radius: 10px;
+}
+.filter-tags{
+    margin-top: 10px;
+    /*text-align: center;*/
+    padding: 0;
+}
+ul.filter-tags li{
+    display: inline;
+}
+.skill-tag{
+    padding: 8px 20px;
+    background-color: #78B987;
+    color: ghostwhite;
+    /*border-radius: 5px;*/
+    cursor: pointer;
+}
+.skill-tag:hover{
+    background-color: #1f6341;
 }
 /**********************************/
 /**********Contact-Me Tab***********/

@@ -129,10 +129,10 @@
                                 <input type="radio" id="tab-2" name="tab">
                                 <span href="#tab-content-2"><i class="fa fa-code"></i><span class="mobile-no-display">&nbsp;&nbsp;Skills</span></span>
 
-                                <input type="radio" id="tab-3" name="tab">
+                                <input type="radio" id="tab-3" name="tab" checked>
                                 <span href="#tab-content-3"><i class="fa fa-globe"></i><span class="mobile-no-display">&nbsp;&nbsp;Portfolio</span></span>
 
-                                <input type="radio" id="tab-4" name="tab" checked>
+                                <input type="radio" id="tab-4" name="tab">
                                 <span href="#tab-content-4"><i class="fa fa-suitcase"></i><span class="mobile-no-display">&nbsp;&nbsp;Contact Me</span></span>
                                 <!--End | Tabs Headers-->
 
@@ -295,10 +295,29 @@
 
                                     <!--Start | Experience-->
                                     <section class="inside-tab" id="tab-content-3">
-                                        <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                            </div>
-                                        </div>
+                                        <!--<div class="row">-->
+                                            <!--<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">-->
+                                                <ul class="filter-tags">
+                                                       <!-- For filtering controls add -->
+                                                       <li class="skill-tag green-background" data-filter="all"> All </li>
+                                                       <li class="skill-tag green-background" data-filter="1">Python</li>
+                                                       <li class="skill-tag green-background" data-filter="2">Java</li>
+                                                       <li class="skill-tag green-background" data-filter="3">Website</li>
+                                                       
+                                                </ul>
+                                                <div class="filtr-container">
+                                                        <div class="filtr-item" data-category="1" data-sort="value">
+                                                           Section 1
+                                                        </div>
+                                                        <div class="filtr-item" data-category="2, 1" data-sort="value">
+                                                           Section 1 and 2
+                                                        </div>
+                                                        <div class="filtr-item" data-category="3" data-sort="value">
+                                                           Section 3
+                                                        </div>
+                                                </div>
+                                            <!--</div>-->
+                                        <!--</div>-->
                                     </section>
                                     <!--End | Experience-->
 
@@ -439,7 +458,7 @@
         <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
         <script type="text/javascript" src="js/typed.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/radialIndicator.min.js"></script>
+        <script type="text/javascript" src="js/jquery.filterizr.min.js"></script>
 
     </body>
 </html>
