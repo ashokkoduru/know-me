@@ -289,7 +289,7 @@ body{
     /*padding: 2px 0;*/
 /*}*/
 .dev-icon{
-    height: 70px;
+    height: 68px;
 }
 .skill{
     text-align: center;
@@ -387,11 +387,14 @@ textarea{
     resize: none;
 }
 .detail-head{
-    width: 40px;
     font-weight: bold;
 }
 .padding-left-5{
     padding-left: 5px;
+    position: relative;
+}
+.width-40{
+    width: 25%;
 }
 
 /**********************************/
