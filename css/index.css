@@ -386,18 +386,12 @@ body{
 textarea{
     resize: none;
 }
-#contact-me-details{
-    list-style: none;
-    padding: 10px 15px;
+.detail-head{
+    width: 40px;
+    font-weight: bold;
 }
-ul#contact-me-details li{
-    width: 100%;
-}
-.contact-detail-list-item > .detail-label{
-    width: 20%;
-}
-.contact-detail-list-item{
-    /*border-bottom: 1px solid silver;*/
+.padding-left-5{
+    padding-left: 5px;
 }
 
 /**********************************/
