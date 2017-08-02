@@ -5,7 +5,10 @@ input {
 }
 body{
     /*background-color: silver;*/
-    background-image: url(../images/ep_naturalblack.png);
+    /*background-image: url(../images/boston.jpg);*/
+    background: url(../images/boston.jpg) no-repeat center center fixed;
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
     margin: 0;
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
@@ -13,12 +16,13 @@ body{
     line-height: 25px;
     color: silver;
     overflow-x: hidden;
-    padding: 0;
+    /*padding: 0;*/
 }
 /*h1,h3{*/
     /*text-transform: uppercase;*/
 /*}*/
 .wrapper{
+    opacity: 0.9;
     display: block;
     width: 100%;
     overflow: hidden;
