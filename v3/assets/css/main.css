@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");*/
+@import url("https://fonts.googleapis.com/css?family=Lato");
 
 /*
 	Dimension by HTML5 UP
@@ -14,7 +15,8 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		/*font: inherit;*/
+        font-family: 'Lato', sans-serif;
 		vertical-align: baseline;
 	}
 
@@ -169,7 +171,7 @@
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			/*border-bottom: solid 1px #ffffff;*/
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
