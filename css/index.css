@@ -4,9 +4,9 @@ input {
     appearance: none;
 }
 body{
-    /*background-color: silver;*/
+    background-color: #262626;
     /*background-image: url(../images/boston.jpg);*/
-    background: url(../images/boston.jpg) no-repeat center center fixed;
+    /*background: url(../images/boston.jpg) no-repeat center center fixed;*/
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
     margin: 0;
@@ -30,10 +30,10 @@ body{
     top: 50%;
     margin: -270.5px auto 0 auto;
 }
-.green-background{
-    background-color: #1f6341;
-    /*background-color: #635957;*/
-}
+/*.green-background{*/
+    /*background-color: #1f6341;*/
+    /*!*background-color: #635957;*!*/
+/*}*/
 .no-display{
     display: none;
 }
@@ -148,9 +148,9 @@ body{
 /**********************************/
 
 .profile-tabs{
-    background-color: white;
+    /*background-color: white;*/
     height: 520px;
-    color: black;
+    /*color: black;*/
     padding-left: 0;
     padding-right: 0;
 }
