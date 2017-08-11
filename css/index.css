@@ -108,13 +108,13 @@ body{
     margin-bottom: 15px;
 }
 .profile-card-description{
-    font-style: italic;
+    /*font-style: italic;*/
     text-align: center;
 }
 .profile-card-description > p{
     padding: 10px 0;
-    border-top: 1px solid silver;
-    border-bottom: 1px solid silver;
+    /*border-top: 1px solid silver;*/
+    /*border-bottom: 1px solid silver;*/
 
 }
 .profile-card-social{
@@ -174,13 +174,13 @@ body{
     height: 100%;
 }
 .tabs>input, .tabs>span {
-    color: #b92c28;
+    color: #E05F27;
     height: 40px;
     position: absolute;
     line-height: 40px;
     top: 0;
-    /*width: 25%;*/
-    width: 33%;
+    width: 25%;
+    /*width: 33%;*/
     font-weight: 200;
     font-size: 15px;
     /*background-color: silver;*/
@@ -212,13 +212,13 @@ body{
     left: 0;
 }
 #tab-2, #tab-2+span {
-    left: 33%;
+    left: 25%;
 }
-/*#tab-3, #tab-3+span {*/
-    /*left: 50%;*/
-/*}*/
+#tab-3, #tab-3+span {
+    left: 50%;
+}
 #tab-4, #tab-4+span {
-    left: 66%;
+    left: 75%;
 }
 .tab-content {
     width: 100%;
@@ -244,8 +244,8 @@ body{
 }
 .effect .line {
     background: #3498DB;
-    /*width: 25%;*/
-    width: 33%;
+    width: 25%;
+    /*width: 33%;*/
     height: 2px;
     position: absolute;
     top: 40px;
@@ -262,19 +262,19 @@ body{
 }
 
 #tab-2:checked~.line {
-    left: 33%;
+    left: 25%;
 }
 
-/*#tab-3:checked~.line {*/
-    /*left: 50%;*/
-/*}*/
+#tab-3:checked~.line {
+    left: 50%;
+}
 
 #tab-4:checked~.line {
-    left: 66%;
+    left: 75%;
 }
 .inside-tab{
     padding: 10px;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
     /*height: 485px;*/
 }
 .margin-down-10{
@@ -443,6 +443,9 @@ ul.filter-tags li{
 .skill-tag:hover{
     background-color: #1f6341;
 }
+.projects{
+    padding: 1em;
+}
 /**********************************/
 /**********Contact-Me Tab***********/
 /**********************************/
@@ -492,6 +495,7 @@ textarea{
 .width-40{
     width: 28%;
 }
+
 
 /**********************************/
 /**********Media Queries***********/
