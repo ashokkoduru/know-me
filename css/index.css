@@ -376,7 +376,7 @@ body{
     /*background-color: white;*/
 }
 .dev-icon-font{
-    font-size: 5.3em;
+    font-size: 5em;
     font-weight: 100;
 }
 
@@ -385,65 +385,55 @@ body{
 /**********Portfolio Tab***********/
 /**********************************/
 
-/*.experience{*/
-    /*padding: 2px 10px;*/
-    /*margin-bottom: 10px;*/
-/*}*/
-/*.experience-duration{*/
-    /*float: right;*/
-/*}*/
-/*.company-detail{*/
-    /*padding-bottom: 2px;*/
-    /*border-bottom: 1px solid silver;*/
-/*}*/
-/*.work-done{*/
-    /*margin-top: 5px;*/
-    /*font-size: small;*/
-    /*text-align: justify;*/
-    /*text-justify: inter-word;*/
-/*}*/
+.project{
+    padding: 2px 10px;
+    margin-bottom: 10px;
+}
+.experience-duration{
+    float: right;
+    color: ghostwhite; !important;
+}
+.project-detail{
+    padding-bottom: 2px;
+    border-bottom: 1px dotted silver;
+}
+.work-done{
+    margin-top: 5px;
+    font-size: small;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
-/*.skill-used{*/
-    /*color: black;*/
-    /*background-color: #78b987;*/
-    /*padding: 0 11px;*/
-    /*border-radius: 2px;*/
+.skill-used{
+    color: black;
+    background-color: #2F7BDE;
+    padding: 0 11px;
+    border-radius: 2px;
     /*float: right;*/
-    /*margin-left: 2px;*/
-/*}*/
-/*.role{*/
-    /*margin-top: 2px;*/
-    /*!*font-weight: bold;*!*/
-/*}*/
-/*.role-name{*/
+    margin-left: 2px;
+}
+.role{
+    margin-top: 2px;
     /*font-weight: bold;*/
-/*}*/
-/*.company-name{*/
-    /*font-weight: bold;*/
-/*}*/
-.experience{
-    border : 1px solid silver;
-    border-radius: 10px;
 }
-.filter-tags{
-    margin-top: 10px;
-    /*text-align: center;*/
-    padding: 0;
+.role-name{
+    font-weight: bold;
 }
-ul.filter-tags li{
-    display: inline;
+.project-name{
+    font-weight: 200;
 }
-.skill-tag{
-    padding: 8px 20px;
-    background-color: #78B987;
-    color: ghostwhite;
-    /*border-radius: 5px;*/
-    cursor: pointer;
-}
-.skill-tag:hover{
-    background-color: #1f6341;
-}
+
 .projects{
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+.image-project{
+    /*float: left;*/
+}
+.project-image{
+    height: 100%;
+    width: 100%;
     padding: 1em;
 }
 /**********************************/
@@ -534,7 +524,7 @@ textarea{
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .dev-icon-font{
-        font-size: 5em;
+        font-size: 4.8em;
         font-weight: 100;
     }
 }
@@ -550,7 +540,7 @@ textarea{
         border-top: 1px solid slategray;
     }
     .dev-icon-font{
-        font-size: 4.5em;
+        font-size: 4.3em;
         font-weight: 100;
     }
     #about-me{
@@ -564,7 +554,7 @@ textarea{
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .dev-icon-font{
-        font-size: 5em;
+        font-size: 4.8em;
         font-weight: 100;
     }
 }
@@ -575,7 +565,7 @@ textarea{
         display: none;
     }
     .dev-icon-font{
-        font-size: 4.5em;
+        font-size: 4.3em;
         font-weight: 100;
     }
 }
