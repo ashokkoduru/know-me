@@ -6,7 +6,7 @@ input {
 body{
     margin: 0;
     font-family: 'Oxygen', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 13px;
     line-height: 25px;
     color: silver;
@@ -368,6 +368,13 @@ body{
 .row-skill{
     margin-bottom: 15px;
 }
+.skills-tab{
+    /*background-color: white;*/
+}
+.dev-icon-font{
+    font-size: 5.3em;
+    font-weight: 100;
+}
 
 
 /**********************************/
@@ -518,8 +525,9 @@ textarea{
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    .dev-icon{
-        height: 60px;
+    .dev-icon-font{
+        font-size: 5em;
+        font-weight: 100;
     }
 }
 
@@ -533,8 +541,9 @@ textarea{
         min-height: 520px;
         border-top: 1px solid slategray;
     }
-    .dev-icon{
-        height: 60px;
+    .dev-icon-font{
+        font-size: 4.5em;
+        font-weight: 100;
     }
     #about-me{
         font-size: 1.1em;
@@ -546,8 +555,9 @@ textarea{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    .dev-icon{
-        height: 65px;
+    .dev-icon-font{
+        font-size: 5em;
+        font-weight: 100;
     }
 }
 
@@ -556,8 +566,9 @@ textarea{
     .mobile-no-display{
         display: none;
     }
-    .dev-icon{
-        height: 58px;
+    .dev-icon-font{
+        font-size: 4.5em;
+        font-weight: 100;
     }
 }
 
