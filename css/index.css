@@ -490,6 +490,16 @@ textarea{
 .width-40{
     width: 28%;
 }
+.footer{
+    /*background-color: orange;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    top:99%;
+    /*height: 100px;*/
+    width: 100%;
+    overflow:hidden;
+}
 
 
 /**********************************/
@@ -561,6 +571,9 @@ textarea{
     .dev-icon-font{
         font-size: 4.8em;
         font-weight: 100;
+    }
+    .image-project{
+        display: none;
     }
 }
 
