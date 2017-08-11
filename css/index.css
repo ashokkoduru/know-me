@@ -284,7 +284,7 @@ body{
 #about-me{
     font-size: 1.1em;
     font-weight: 200;
-    padding: 1.2em;
+    padding: 1.1em;
 }
 .para{
     text-align: justify;
@@ -530,18 +530,17 @@ textarea{
      /*}*/
     .profile-tabs{
         margin-top: 20px;
-        /*min-height: 520px;*/
+        min-height: 520px;
         border-top: 1px solid slategray;
     }
     .dev-icon{
         height: 60px;
     }
-    /*.profile-card-description{*/
-        /*display: none;*/
-    /*}*/
-    /*.profile-card-social{*/
-        /*display: none;*/
-    /*}*/
+    #about-me{
+        font-size: 1.1em;
+        font-weight: 200;
+        /*padding: 1em;*/
+    }
 
 }
 
