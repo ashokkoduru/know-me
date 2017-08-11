@@ -282,9 +282,20 @@ body{
 /*************About ME***************/
 /************************************/
 #about-me{
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 200;
     padding: 1.2em;
+}
+.para{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.highlight{
+    text-decoration: dotted;
+
+}
+.dotted-underline{
+    border-bottom: 1px dotted silver;
 }
 
 /**********************************/
