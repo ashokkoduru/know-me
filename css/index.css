@@ -40,6 +40,9 @@ body{
 .dark-orange-text-color{
     color: #c02119;
 }
+.white-text-color{
+    color: ghostwhite;
+}
 
 .no-display{
     display: none;
@@ -157,7 +160,7 @@ body{
 
 .profile-tabs{
     /*background-color: white;*/
-    height: 520px;
+    /*height: 520px;*/
     /*color: black;*/
     padding-left: 0;
     padding-right: 0;
@@ -239,7 +242,7 @@ body{
 .effect .line {
     background: #3498DB;
     width: 25%;
-    height: 4px;
+    height: 2px;
     position: absolute;
     top: 40px;
 }
@@ -268,11 +271,22 @@ body{
 .inside-tab{
     padding: 10px;
     overflow-y: auto;
-    height: 485px;
+    /*height: 485px;*/
 }
 .margin-down-10{
     margin-bottom: 10px;
 }
+
+
+/************************************/
+/*************About ME***************/
+/************************************/
+#about-me{
+    font-size: 1.2em;
+    font-weight: 200;
+    padding: 1.2em;
+}
+
 /**********************************/
 /*************Skills***************/
 /**********************************/
@@ -447,7 +461,7 @@ textarea{
     resize: none;
 }
 .detail-head{
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 .padding-left-5{
     padding-left: 5px;
@@ -479,7 +493,7 @@ textarea{
 @media only screen and (min-width : 992px) {
     .profile-card{
         height: auto;
-        border-right: 1px solid silver;
+        border-right: 1px solid slategray;
     }
 
 }
