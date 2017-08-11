@@ -402,6 +402,7 @@ body{
     font-size: small;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 1.1em;
 }
 
 .skill-used{
@@ -411,6 +412,7 @@ body{
     border-radius: 2px;
     /*float: right;*/
     margin-left: 2px;
+    font-size: 1em;
 }
 .role{
     margin-top: 2px;
@@ -421,12 +423,12 @@ body{
 }
 .project-name{
     font-weight: 200;
+    font-size: 1.2em;
 }
 
 .projects{
     padding: 1em;
     margin-top: 1em;
-    font-size: 1.2em;
 }
 .image-project{
     /*float: left;*/
@@ -435,6 +437,9 @@ body{
     height: 100%;
     width: 100%;
     padding: 1em;
+}
+.work-done{
+
 }
 /**********************************/
 /**********Contact-Me Tab***********/
