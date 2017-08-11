@@ -174,12 +174,14 @@ body{
     height: 100%;
 }
 .tabs>input, .tabs>span {
+    color: #b92c28;
     height: 40px;
     position: absolute;
     line-height: 40px;
     top: 0;
-    width: 25%;
-    font-weight: bold;
+    /*width: 25%;*/
+    width: 33%;
+    font-weight: 200;
     font-size: 15px;
     /*background-color: silver;*/
 }
@@ -201,7 +203,8 @@ body{
     transition: all .5s;
 }
 .tabs>input:checked+span, .tabs>input:hover+span {
-    color: silver;
+    /*color: silver;*/
+    color: #0f60ff;
     /*background-color: #1f6341; !important;*/
     /*background-color: #635957; !important;*/
 }
@@ -209,13 +212,13 @@ body{
     left: 0;
 }
 #tab-2, #tab-2+span {
-    left: 25%;
+    left: 33%;
 }
-#tab-3, #tab-3+span {
-    left: 50%;
-}
+/*#tab-3, #tab-3+span {*/
+    /*left: 50%;*/
+/*}*/
 #tab-4, #tab-4+span {
-    left: 75%;
+    left: 66%;
 }
 .tab-content {
     width: 100%;
@@ -241,7 +244,8 @@ body{
 }
 .effect .line {
     background: #3498DB;
-    width: 25%;
+    /*width: 25%;*/
+    width: 33%;
     height: 2px;
     position: absolute;
     top: 40px;
@@ -258,15 +262,15 @@ body{
 }
 
 #tab-2:checked~.line {
-    left: 25%;
+    left: 33%;
 }
 
-#tab-3:checked~.line {
-    left: 50%;
-}
+/*#tab-3:checked~.line {*/
+    /*left: 50%;*/
+/*}*/
 
 #tab-4:checked~.line {
-    left: 75%;
+    left: 66%;
 }
 .inside-tab{
     padding: 10px;
