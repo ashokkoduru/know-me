@@ -479,7 +479,7 @@ textarea{
     position: relative;
 }
 .width-40{
-    width: 25%;
+    width: 28%;
 }
 
 /**********************************/
@@ -502,9 +502,9 @@ textarea{
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    .profile-card{
+    .profile-tabs{
         height: auto;
-        border-right: 1px solid slategray;
+        border-left: 1px solid slategray;
     }
 
 }
@@ -530,7 +530,8 @@ textarea{
      /*}*/
     .profile-tabs{
         margin-top: 20px;
-        min-height: 520px;
+        /*min-height: 520px;*/
+        border-top: 1px solid slategray;
     }
     .dev-icon{
         height: 60px;
