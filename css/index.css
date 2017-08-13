@@ -37,8 +37,8 @@ body{
 .blue-text-color{
     color: #2F7BDE;
 }
-.dark-orange-text-color{
-    color: #c02119;
+.cream-text-color{
+    color: #ffffe6;
 }
 .white-text-color{
     color: ghostwhite;
@@ -204,7 +204,7 @@ body{
 }
 .tabs>input:checked+span, .tabs>input:hover+span {
     /*color: silver;*/
-    color: #0f60ff;
+    color: #ffffe6;
     /*background-color: #1f6341; !important;*/
     /*background-color: #635957; !important;*/
 }
@@ -463,10 +463,11 @@ body{
 }
 .contact-form-reset-button{
     border-radius: 4px;
-    /*background-color: darkgrey;*/
+    /*background-color: green;*/
     padding: 5px 35px;
     margin-right: 15px;
-    border: 1px solid #2F7BDE;
+    /*color: silver;*/
+    border: 1px solid #ffffe6;
 
 }
 .contact-form-submit-button{
@@ -475,7 +476,7 @@ body{
     padding: 5px 35px;
     margin-right: 15px;
     /*color: silver;*/
-    border: 1px solid #2F7BDE;
+    border: 1px solid #ffffe6;
 }
 textarea{
     resize: none;
@@ -500,7 +501,18 @@ textarea{
     width: 100%;
     overflow:hidden;
 }
-
+.hover-button:hover{
+    background-color: #ffffe6;
+    color: black;
+}
+.hover-button.active.focus,
+.hover-button.active:focus,
+.hover-button.focus,
+.hover-button:active.focus,
+.hover-button:active:focus,
+.hover-button:focus {
+    outline: 0;
+}
 
 /**********************************/
 /**********Media Queries***********/
@@ -574,6 +586,12 @@ textarea{
     }
     .image-project{
         display: none;
+    }
+    .wrapper{
+        top:0;
+    }
+    .send-message{
+        margin-top: 2em;
     }
 }
 

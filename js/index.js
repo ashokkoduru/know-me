@@ -1,9 +1,13 @@
 $(document).ready(function () {
     $(function(){
         $("#profile-card-header").typed({
-            strings: ["Web Developer",
-                "Python Enthusiast"],
-            typeSpeed: 1,
+            strings: ["Software Developer",
+                "Web Designer",
+                "Python Enthusiast",
+                "Cinephile"
+
+            ],
+            typeSpeed: 0.75,
             loop: true
         });
     });
