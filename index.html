@@ -24,6 +24,14 @@
     <!-- Credits: http://themeforest.net/user/FlexyCodes -jquery.mCustomScrollbar.min.css-->
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
+    <!-- CSS | FancyBox -->
+    <!-- Credits: http://themeforest.net/user/FlexyCodes -jquery.mCustomScrollbar.min.css-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+
     <!--CSS | Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oxygen:100,200,300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,200,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -141,13 +149,13 @@
                             <!-- Start | Tabs -->
                             <div class="tabs effect">
                                 <!-- Start | Tabs Headers-->
-                                <input type="radio" id="tab-1" name="tab" checked>
+                                <input type="radio" id="tab-1" name="tab">
                                 <span href="#tab-content-1"><i class="fa fa-user-o"></i><span class="mobile-no-display">&nbsp;&nbsp;About Me</span></span>
 
                                 <input type="radio" id="tab-2" name="tab">
                                 <span href="#tab-content-2"><i class="fa fa-code"></i><span class="mobile-no-display">&nbsp;&nbsp;Skills</span></span>
 
-                                <input type="radio" id="tab-3" name="tab">
+                                <input type="radio" id="tab-3" name="tab" checked>
                                 <span href="#tab-content-3"><i class="fa fa-globe"></i><span class="mobile-no-display">&nbsp;&nbsp;Portfolio</span></span>
 
                                 <input type="radio" id="tab-4" name="tab">
@@ -299,6 +307,108 @@
 
                                     <!--Start | Experience-->
                                     <section class="inside-tab" id="tab-content-3">
+
+                                        <!--<div class="demo-colored-wrap">-->
+
+                                            <div class="filter-section">
+                                                <!--<div class="container">-->
+                                                    <div class="row">
+                                                        <div class="col-sm-12 col-xs-12">
+
+                                                            <div class="filter-container isotopeFilters2">
+                                                                <ul class="list-inline filter">
+                                                                    <li class="active"><a href="#" data-filter="*">All </a><span>/</span></li>
+                                                                    <li><a href="#" data-filter=".illustrations">Javascript</a><span>/</span></li>
+                                                                    <li><a href="#" data-filter=".photography">Python</a><span>/</span></li>
+                                                                    <li><a href="#" data-filter=".websites">Node.js</a><span>/</span></li>
+                                                                    <li><a href="#" data-filter=".art">Funny</a></li>
+                                                                </ul>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                <!--</div>-->
+                                            </div>
+
+                                            <div class="portfolio-section port-col">
+                                                <!--<div class="container">-->
+                                                    <div class="row">
+                                                        <div class="isotopeContainer2">
+
+                                                            <div class="col-sm-4 isotopeSelector art">
+                                                                <article class="">
+                                                                    <figure>
+                                                                        <img src="images/bps.JPG" alt="">
+                                                                        <div class="overlay-background">
+                                                                            <div class="inner"></div>
+                                                                        </div>
+                                                                        <div class="overlay">
+                                                                            <div class="inner-overlay">
+                                                                                <div class="inner-overlay-content with-icons">
+                                                                                    <a title="First Image" class="fancybox-pop" rel="portfolio-31"><i class="fa fa-search"></i></a>
+                                                                                    <a title="Second Image"  class="fancybox-pop" style="display: none" rel="portfolio-13"></a>
+                                                                                    <a title="Third Image"  class="fancybox-pop" style="display: none" rel="portfolio-13"></a>
+                                                                                    <a href="#"><i class="fa fa-link"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </figure>
+                                                                    <div class="article-title"><a href="#">BPS Routing</a></div>
+                                                                </article>
+                                                            </div>
+
+                                                            <div class="col-sm-4 isotopeSelector illustrations">
+                                                                <article class="">
+                                                                    <figure>
+                                                                        <img src="images/bps.JPG" alt="">
+                                                                        <div class="overlay-background">
+                                                                            <div class="inner"></div>
+                                                                        </div>
+                                                                        <div class="overlay">
+                                                                            <div class="inner-overlay">
+                                                                                <div class="inner-overlay-content with-icons">
+                                                                                    <a title="First Image" class="fancybox-pop" rel="portfolio-14" href="images/portfolio/14.jpg"><i class="fa fa-search"></i></a>
+                                                                                    <a title="Second Image"  class="fancybox-pop" style="display: none" href="images/portfolio/17.jpg" rel="portfolio-14"></a>
+                                                                                    <a title="Third Image"  class="fancybox-pop" style="display: none" href="images/portfolio/18.jpg" rel="portfolio-14"></a>
+                                                                                    <a href="#"><i class="fa fa-link"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </figure>
+                                                                    <div class="article-title"><a href="#">Ballast chase</a></div>
+                                                                </article>
+                                                            </div>
+
+                                                            <div class="col-sm-4 isotopeSelector websites">
+                                                                <article class="">
+                                                                    <figure>
+                                                                        <img src="images/portfolio.png" alt="">
+                                                                        <div class="overlay-background">
+                                                                            <div class="inner"></div>
+                                                                        </div>
+                                                                        <div class="overlay">
+                                                                            <div class="inner-overlay">
+                                                                                <div class="inner-overlay-content with-icons">
+                                                                                    <a title="First Image" class="fancybox-pop" rel="portfolio-15" href="images/portfolio/15.jpg"><i class="fa fa-search"></i></a>
+                                                                                    <a title="Second Image"  class="fancybox-pop" style="display: none" href="images/portfolio/17.jpg" rel="portfolio-15"></a>
+                                                                                    <a title="Third Image"  class="fancybox-pop" style="display: none" href="images/portfolio/18.jpg" rel="portfolio-15"></a>
+                                                                                    <a href="#"><i class="fa fa-link"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </figure>
+                                                                    <div class="article-title"><a href="#">The palms</a></div>
+                                                                </article>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                <!--</div>-->
+                                            </div>
+
+                                        <!--</div>-->
+                                        <!-- /3 Column Portfolio -->
                                         <!--<div class="row">-->
                                             <!--<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">-->
                                                 <!--<ul class="filter-tags">-->
@@ -322,128 +432,128 @@
                                                 <!--</div>-->
                                             <!--</div>-->
                                         <!--</div>-->
-                                        <div class="projects">
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                                    <!--<div class="section-title margin-down-10">-->
-                                                        <!--<div class="section-title-inner">-->
-                                                            <!--<h5><i class="fa fa-telegram">&nbsp;&nbsp;</i><strong>WORK EXPERIENCE</strong></h5>-->
+                                        <!--<div class="projects">-->
+                                            <!--<div class="row">-->
+                                                <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">-->
+                                                    <!--&lt;!&ndash;<div class="section-title margin-down-10">&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;<div class="section-title-inner">&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<h5><i class="fa fa-telegram">&nbsp;&nbsp;</i><strong>WORK EXPERIENCE</strong></h5>&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                                    <!--<div class="row project">-->
+                                                        <!--<div class="col-sm-9 col-md-9">-->
+                                                            <!--<div class="project-detail">-->
+                                                                <!--<span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; BPS Routing</span>-->
+                                                                <!--&lt;!&ndash;<span class="experience-duration"><i class="fa fa-github"></i></span>&ndash;&gt;-->
+                                                            <!--</div>-->
+                                                            <!--<div class="role">-->
+                                                                <!--&lt;!&ndash;<span class="role-name">Software Developer</span>&ndash;&gt;-->
+                                                                <!--<span class="skill-used">Java</span> <span class="skill-used">Agile</span>-->
+                                                            <!--</div>-->
+                                                            <!--<p class="work-done">-->
+                                                                <!--Implemented a multi-threaded routing algorithm in Java to effectively route the buses between the bus-stops and schools preventing the deadhead time potentially saving millions to the Boston Public Schools. Usage of Real scale data lead to a better implementation and to reach an effective solution-->
+                                                            <!--</p>-->
+                                                        <!--</div>-->
+                                                        <!--<div class="col-sm-3 col-md-3 image-project">-->
+                                                            <!--<img src="images/bps.JPG" class="project-image">-->
                                                         <!--</div>-->
                                                     <!--</div>-->
-                                                    <div class="row project">
-                                                        <div class="col-sm-9 col-md-9">
-                                                            <div class="project-detail">
-                                                                <span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; BPS Routing</span>
-                                                                <!--<span class="experience-duration"><i class="fa fa-github"></i></span>-->
-                                                            </div>
-                                                            <div class="role">
-                                                                <!--<span class="role-name">Software Developer</span>-->
-                                                                <span class="skill-used">Java</span> <span class="skill-used">Agile</span>
-                                                            </div>
-                                                            <p class="work-done">
-                                                                Implemented a multi-threaded routing algorithm in Java to effectively route the buses between the bus-stops and schools preventing the deadhead time potentially saving millions to the Boston Public Schools. Usage of Real scale data lead to a better implementation and to reach an effective solution
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-sm-3 col-md-3 image-project">
-                                                            <img src="images/bps.JPG" class="project-image">
-                                                        </div>
-                                                    </div>
-                                                    <div class="row project">
-                                                        <div class="col-sm-9 col-md-9">
-                                                            <div class="project-detail">
-                                                                <span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; OutdoorNinja</span>
-                                                                <!--<span class="experience-duration"><i class="fa fa-github"></i></span>-->
-                                                            </div>
-                                                            <div class="role">
-                                                                <!--<span class="role-name">Software Developer</span>-->
-                                                                <span class="skill-used">Angular 2</span> <span class="skill-used">Ionic</span> <span class="skill-used">Cordova</span>
-                                                            </div>
-                                                            <p class="work-done">
-                                                                Developing a hybrid app for hikers using Apache Cordova and Ionic Framework which lets the user see the location and profile data retrieved from an API custom built from raw data stored in Firebase.
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-sm-3 col-md-3 image-project">
+                                                    <!--<div class="row project">-->
+                                                        <!--<div class="col-sm-9 col-md-9">-->
+                                                            <!--<div class="project-detail">-->
+                                                                <!--<span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; OutdoorNinja</span>-->
+                                                                <!--&lt;!&ndash;<span class="experience-duration"><i class="fa fa-github"></i></span>&ndash;&gt;-->
+                                                            <!--</div>-->
+                                                            <!--<div class="role">-->
+                                                                <!--&lt;!&ndash;<span class="role-name">Software Developer</span>&ndash;&gt;-->
+                                                                <!--<span class="skill-used">Angular 2</span> <span class="skill-used">Ionic</span> <span class="skill-used">Cordova</span>-->
+                                                            <!--</div>-->
+                                                            <!--<p class="work-done">-->
+                                                                <!--Developing a hybrid app for hikers using Apache Cordova and Ionic Framework which lets the user see the location and profile data retrieved from an API custom built from raw data stored in Firebase.-->
+                                                            <!--</p>-->
+                                                        <!--</div>-->
+                                                        <!--<div class="col-sm-3 col-md-3 image-project">-->
 
-                                                        </div>
-                                                    </div>
-                                                    <div class="row project">
-                                                        <div class="col-sm-9 col-md-9">
-                                                            <div class="project-detail">
-                                                                <span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; Personal Portfolio</span>
-                                                                <span class="experience-duration"><a href="https://github.com/ashokkoduru/know-me" target="_blank"><i class="fa fa-github white-text-color"></i></a></span>
-                                                            </div>
-                                                            <div class="role">
-                                                                <!--<span class="role-name">Software Developer</span>-->
-                                                                <span class="skill-used">Jquery</span> <span class="skill-used">Bootstrap</span>
-                                                            </div>
-                                                            <p class="work-done">
-                                                                Simple responsive portfolio website.Features four tabs as seen above. The slideshow is made from scratch with JQuery and CSS, and the interface is intended to be as sparse as possible, using Bootstrap.
-                                                        </div>
-                                                        <div class="col-sm-3 col-md-3 image-project">
-                                                            <img src="images/portfolio.png" class="project-image" style="border: 1px solid silver">
+                                                        <!--</div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="row project">-->
+                                                        <!--<div class="col-sm-9 col-md-9">-->
+                                                            <!--<div class="project-detail">-->
+                                                                <!--<span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; Personal Portfolio</span>-->
+                                                                <!--<span class="experience-duration"><a href="https://github.com/ashokkoduru/know-me" target="_blank"><i class="fa fa-github white-text-color"></i></a></span>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="role">-->
+                                                                <!--&lt;!&ndash;<span class="role-name">Software Developer</span>&ndash;&gt;-->
+                                                                <!--<span class="skill-used">Jquery</span> <span class="skill-used">Bootstrap</span>-->
+                                                            <!--</div>-->
+                                                            <!--<p class="work-done">-->
+                                                                <!--Simple responsive portfolio website.Features four tabs as seen above. The slideshow is made from scratch with JQuery and CSS, and the interface is intended to be as sparse as possible, using Bootstrap.-->
+                                                        <!--</div>-->
+                                                        <!--<div class="col-sm-3 col-md-3 image-project">-->
+                                                            <!--<img src="images/portfolio.png" class="project-image" style="border: 1px solid silver">-->
 
-                                                        </div>
-                                                    </div>
+                                                        <!--</div>-->
+                                                    <!--</div>-->
 
-                                                    <div class="row project">
-                                                        <div class="col-sm-9 col-md-9">
-                                                            <div class="project-detail">
-                                                                <span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; Secure Messenger</span>
-                                                                <span class="experience-duration"><a href="https://github.com/ashokkoduru/secure-chat-app" target="_blank"><i class="fa fa-github white-text-color"></i></a></span>
-                                                            </div>
-                                                            <div class="role">
-                                                                <!--<span class="role-name">Software Developer</span>-->
-                                                                <span class="skill-used">Python</span> <span class="skill-used">Network Security</span>
-                                                            </div>
-                                                            <p class="work-done">
-                                                                Developed a secure communication protocol with the use of network security algorithms which aids multi way communication with data stored at a predefined server. This was used to build a multi user secure chat room with a way to detect adversaries and their activity in real time.
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-sm-3 col-md-3 image-project">
+                                                    <!--<div class="row project">-->
+                                                        <!--<div class="col-sm-9 col-md-9">-->
+                                                            <!--<div class="project-detail">-->
+                                                                <!--<span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; Secure Messenger</span>-->
+                                                                <!--<span class="experience-duration"><a href="https://github.com/ashokkoduru/secure-chat-app" target="_blank"><i class="fa fa-github white-text-color"></i></a></span>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="role">-->
+                                                                <!--&lt;!&ndash;<span class="role-name">Software Developer</span>&ndash;&gt;-->
+                                                                <!--<span class="skill-used">Python</span> <span class="skill-used">Network Security</span>-->
+                                                            <!--</div>-->
+                                                            <!--<p class="work-done">-->
+                                                                <!--Developed a secure communication protocol with the use of network security algorithms which aids multi way communication with data stored at a predefined server. This was used to build a multi user secure chat room with a way to detect adversaries and their activity in real time.-->
+                                                            <!--</p>-->
+                                                        <!--</div>-->
+                                                        <!--<div class="col-sm-3 col-md-3 image-project">-->
 
-                                                        </div>
-                                                    </div>
-                                                    <div class="row project">
-                                                        <div class="col-sm-9 col-md-9">
-                                                            <div class="project-detail">
-                                                                <span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; Search Engine</span>
-                                                                <span class="experience-duration"><a href="https://github.com/ashokkoduru/search-engine-ir" target="_blank"><i class="fa fa-github white-text-color"></i></a></span>
-                                                            </div>
-                                                            <div class="role">
-                                                                <!--<span class="role-name">Software Developer</span>-->
-                                                                <span class="skill-used">Python</span> <span class="skill-used">Info. Retrieval</span>
-                                                            </div>
-                                                            <p class="work-done">
-                                                                Used crawled information to build a search engine based on the retrieval models like BM25 and TFIDF. Improved the search accuracy by adding the page rank algorithm including the context matching.
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-sm-3 col-md-3 image-project">
+                                                        <!--</div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="row project">-->
+                                                        <!--<div class="col-sm-9 col-md-9">-->
+                                                            <!--<div class="project-detail">-->
+                                                                <!--<span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; Search Engine</span>-->
+                                                                <!--<span class="experience-duration"><a href="https://github.com/ashokkoduru/search-engine-ir" target="_blank"><i class="fa fa-github white-text-color"></i></a></span>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="role">-->
+                                                                <!--&lt;!&ndash;<span class="role-name">Software Developer</span>&ndash;&gt;-->
+                                                                <!--<span class="skill-used">Python</span> <span class="skill-used">Info. Retrieval</span>-->
+                                                            <!--</div>-->
+                                                            <!--<p class="work-done">-->
+                                                                <!--Used crawled information to build a search engine based on the retrieval models like BM25 and TFIDF. Improved the search accuracy by adding the page rank algorithm including the context matching.-->
+                                                            <!--</p>-->
+                                                        <!--</div>-->
+                                                        <!--<div class="col-sm-3 col-md-3 image-project">-->
 
-                                                        </div>
-                                                    </div>
-                                                    <div class="row project">
-                                                        <div class="col-sm-9 col-md-9">
-                                                            <div class="project-detail">
-                                                                <span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; ON-LAN Chat</span>
-                                                                <span class="experience-duration"><a href="https://github.com/ashokkoduru/onLanChat2" target="_blank"><i class="fa fa-github white-text-color"></i></a></span>
-                                                            </div>
-                                                            <div class="role">
-                                                                <!--<span class="role-name">Software Developer</span>-->
-                                                                <span class="skill-used">Java</span> <span class="skill-used">C#</span> <span class="skill-used">Android</span>
-                                                            </div>
-                                                            <p class="work-done">
-                                                                Built an off-line chat messenger which runs on LAN using C#. Features include Audio/Video Conferencing, Remote Desktop, limitless file transfer and snipping tool. Developed an Android app to share the desktop screen to mobile and push the call and text notifications to desktop chat messenger.
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-sm-3 col-md-3 image-project">
+                                                        <!--</div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="row project">-->
+                                                        <!--<div class="col-sm-9 col-md-9">-->
+                                                            <!--<div class="project-detail">-->
+                                                                <!--<span class="project-name cream-text-color"><i class="fa fa-briefcase"></i>&nbsp; ON-LAN Chat</span>-->
+                                                                <!--<span class="experience-duration"><a href="https://github.com/ashokkoduru/onLanChat2" target="_blank"><i class="fa fa-github white-text-color"></i></a></span>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="role">-->
+                                                                <!--&lt;!&ndash;<span class="role-name">Software Developer</span>&ndash;&gt;-->
+                                                                <!--<span class="skill-used">Java</span> <span class="skill-used">C#</span> <span class="skill-used">Android</span>-->
+                                                            <!--</div>-->
+                                                            <!--<p class="work-done">-->
+                                                                <!--Built an off-line chat messenger which runs on LAN using C#. Features include Audio/Video Conferencing, Remote Desktop, limitless file transfer and snipping tool. Developed an Android app to share the desktop screen to mobile and push the call and text notifications to desktop chat messenger.-->
+                                                            <!--</p>-->
+                                                        <!--</div>-->
+                                                        <!--<div class="col-sm-3 col-md-3 image-project">-->
 
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                        <!--</div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
 
-                                            </div>
+                                            <!--</div>-->
 
-                                        </div>
+                                        <!--</div>-->
 
                                     </section>
                                     <!--End | Experience-->
@@ -591,7 +701,9 @@
         <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
         <script type="text/javascript" src="js/typed.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/jquery.filterizr.min.js"></script>
+        <script type="text/javascript" src="js/isotope.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
 
     </body>
 </html>
