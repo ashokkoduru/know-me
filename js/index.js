@@ -15,7 +15,7 @@ $(document).ready(function () {
     //Default options
     var options = {
         animationDuration: 0.5, //in seconds
-        filter: '1', //Initial filter
+        filter: 'all', //Initial filter
         callbacks: {
             onFilteringStart: function() { },
             onFilteringEnd: function() { },
@@ -32,7 +32,7 @@ $(document).ready(function () {
             transform: 'scale(0.5)'
         },
         filterInCss: { //Filtering in animation
-            opacity: 0,
+            opacity: 1,
             transform: 'scale(1)'
         },
         layout: 'sameSize', //See layouts
@@ -41,7 +41,7 @@ $(document).ready(function () {
     };
 
     var filterizd = $('.filtr-container').filterizr(options);
-    filterizd.filterizr('setOptions', options);
+    // filterizd.filterizr('setOptions', options);
 
 
 });
