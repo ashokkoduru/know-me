@@ -5,16 +5,19 @@ input {
 }
 body{
     margin: 0;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 13px;
     line-height: 25px;
+    /*color: #48a770;*/
     color: silver;
+
     overflow-x: hidden;
     /*padding: 0;*/
 }
 .color-theme-gray{
     background-color: #262626;
+    /*background-color: #f3efe0;*/
 }
 /*h1,h3{*/
     /*text-transform: uppercase;*/
@@ -41,7 +44,7 @@ body{
     color: #ffffe6;
 }
 .white-text-color{
-    color: ghostwhite;
+    color: #2F7BDE;
 }
 
 .no-display{
@@ -85,19 +88,20 @@ body{
     max-width: 100%;
 }
 .profile-card-name{
+    font-family: 'Oxygen', sans-serif;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     /*padding: 20px;*/
 }
 .profile-card-name > h3{
     margin-bottom: 0;
-    /*color: ghostwhite;*/
+    font-size: 2.2em;
 }
 .profile-card-header{
     text-align: center;
 }
 .profile-card-header > h4 {
-    font-weight: 200;
+    font-weight: 300;
     margin-bottom: 5px;
 }
 .profile-card-place{
@@ -290,7 +294,7 @@ body{
 /************************************/
 #about-me{
     font-size: 1.1em;
-    font-weight: 200;
+    /*font-weight: 200;*/
     padding: 1.1em;
 }
 .para{
