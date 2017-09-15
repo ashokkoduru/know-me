@@ -33,7 +33,7 @@ ul.filter > li > a:hover,ul.filter > li > a:focus {
 }
 
 ul.filter > li.active a {
-    color:#111
+    color:silver
 }
 
 ul.filter > li span {

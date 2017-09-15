@@ -12,6 +12,7 @@ $(document).ready(function () {
         });
     });
 
+
     //Default options
     var options = {
         animationDuration: 0.5, //in seconds
@@ -40,10 +41,14 @@ $(document).ready(function () {
         setupControls: true
     };
 
-    var filterizd = $('.filtr-container').filterizr(options);
-    // filterizd.filterizr('setOptions', options);
-
-
+    $(function(){
+        $('#tab-3').click(function(){
+            if ($(this).is(':checked'))
+            {
+                var filterizd = $('.filtr-container').filterizr(options);
+            }
+        });
+    });
 });
 
 

@@ -44,7 +44,7 @@ body{
     color: #ffffe6;
 }
 .white-text-color{
-    color: #2F7BDE;
+    color: #1abc9c;
 }
 
 .no-display{
@@ -178,15 +178,15 @@ body{
     height: 100%;
 }
 .tabs>input, .tabs>span {
-    color: #E05F27;
+    color: #1abc9c;
     height: 40px;
     position: absolute;
     line-height: 40px;
     top: 0;
     width: 25%;
     /*width: 33%;*/
-    font-weight: 200;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 1.2em;
     /*background-color: silver;*/
 }
 .tabs>input {
@@ -293,7 +293,7 @@ body{
 /*************About ME***************/
 /************************************/
 #about-me{
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: 300;
     padding: 1.1em;
 }
@@ -599,8 +599,8 @@ textarea{
         font-weight: 100;
     }
     #about-me{
-        font-size: 1.1em;
-        font-weight: 200;
+        font-size: 2em;
+        /*font-weight: 200;*/
         /*padding: 1em;*/
     }
     .send-message{
