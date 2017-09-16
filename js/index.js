@@ -3,11 +3,10 @@ $(document).ready(function () {
         $("#profile-card-header").typed({
             strings: ["Software Developer",
                 "Web Designer",
-                "Python Enthusiast",
-                "Cinephile"
-
+                "Security Enthusiast",
+                "CS Graduate '18"
             ],
-            typeSpeed: 0.75,
+            typeSpeed: 0.4,
             loop: true
         });
     });
@@ -49,6 +48,17 @@ $(document).ready(function () {
             }
         });
     });
+
+    $(function(){
+        $('.isotopeFilters2').on( 'click', 'a', function(e) {
+            $('.isotopeFilters2').find('.active').removeClass('active');
+            $(this).parent().addClass('active');
+
+        });
+    });
+
+
+
 });
 
 
