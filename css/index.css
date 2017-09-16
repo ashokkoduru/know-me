@@ -10,7 +10,7 @@ body{
     font-size: 13px;
     line-height: 25px;
     /*color: #48a770;*/
-    color: silver;
+    color: ghostwhite;
 
     overflow-x: hidden;
     /*padding: 0;*/
@@ -106,10 +106,12 @@ body{
 }
 .profile-card-place{
     text-align: center;
+    color: whitesmoke;
 }
 .profile-card-place > h6{
     font-size: 1.2em;
     margin-bottom: 15px;
+
 }
 .profile-card-description{
     /*font-style: italic;*/
@@ -136,11 +138,11 @@ body{
 }
 .all-social>a{
     font-size: 32px;
-    color: silver;;
+    color: whitesmoke;;
 }
 
 .all-social>a:hover{
-    color: ghostwhite;
+    color: #1abc9c;
 }
 .profile-card-resume{
     text-align: center;
@@ -209,7 +211,7 @@ body{
 }
 .tabs>input:checked+span, .tabs>input:hover+span {
     /*color: silver;*/
-    color: #ffffe6;
+    color: white;
     /*background-color: #1f6341; !important;*/
     /*background-color: #635957; !important;*/
 }
@@ -297,6 +299,10 @@ body{
     font-size: 1.7em;
     font-weight: 300;
     padding: 1.1em;
+}
+#about-me > p >a{
+    color: #2F7BDE;
+    text-decoration: none;
 }
 .para{
     text-align: center;
@@ -469,6 +475,12 @@ ul.filter > li > a {
     color:#1abc9c;
     font-size:1.3em;
     line-height:30px;
+    background-color: white;
+    padding: 2px 15px;
+    /*border-radius: 5px;*/
+    margin-right: 10px;
+    margin-bottom: 110px;
+    font-weight: 400;
 }
 ul.filter > li > a:hover,ul.filter > li > a:focus {
     text-decoration: none;
@@ -476,7 +488,9 @@ ul.filter > li > a:hover,ul.filter > li > a:focus {
     outline: none
 }
 ul.filter > li.active a {
-    color:silver
+    /*color:silver*/
+    background-color: #1abc9c;
+    color: ghostwhite;
 }
 ul.filter > li span {
     color:#ddd;
@@ -526,6 +540,10 @@ ul.filter > li span {
 .portfolio-section figure:hover .overlay-background {
     opacity:.8;
     visibility:visible
+}
+.project-desc{
+    color: ghostwhite;
+    font-size: 1em;
 }
 .portfolio-section figure .overlay-background {
     z-index:1;
@@ -689,9 +707,9 @@ textarea{
 }
 .footer{
     /*background-color: orange;*/
-    /*position: absolute;*/
+    position: absolute;
     /*left: 0;*/
-    /*bottom: 0;*/
+    bottom: 0;
     top:99%;
     /*height: 100px;*/
     width: 100%;
